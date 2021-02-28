@@ -1,1 +1,4 @@
-*Extenções e configurações que utilizo em meu VScode
+# VScode -> extensões e configurações utilizadas
+## fonte Victor Mono para ligatures :)
+## extensões
+## configurações
