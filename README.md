@@ -1,0 +1,1 @@
+*Extenções e configurações que utilizo em meu VScode
