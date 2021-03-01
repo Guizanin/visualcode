@@ -31,8 +31,7 @@
         "glassit.step": 100,
         "glassit.alpha": 220,
         "workbench.activityBar.visible":false,5
-        "javascript.suggest.autoImports": true,
-   
+        "javascript.suggest.autoImports": true, 
     }
 
 ...
