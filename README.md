@@ -1,7 +1,7 @@
 # VScode -> extensões e configurações utilizadas
 
 - fonte Victor Mono para *ligatures*
-- extensões
+- [extensões](https://github.com/Guizanin/visualcode/tree/master/extensoes)
 - configurações
 
 ...
@@ -32,5 +32,5 @@
         "workbench.activityBar.visible":false,5
         "javascript.suggest.autoImports": true,      
     }
-    
+
 ...
