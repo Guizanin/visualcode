@@ -5,6 +5,7 @@
 - configurações
 
 ...
+
     {
         "editor.fontFamily": "Victor Mono",
         "editor.fontLigatures": true,
@@ -31,4 +32,5 @@
         "workbench.activityBar.visible":false,5
         "javascript.suggest.autoImports": true,      
     }
+    
 ...
