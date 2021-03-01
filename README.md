@@ -1,10 +1,9 @@
 # VScode -> extensões e configurações utilizadas
-
-- fonte Victor Mono para *ligatures*
+- fonte Victor Mono para *ligatures* :)
 - extensões
 - configurações
 
-
+...
     {
         "editor.fontFamily": "Victor Mono",
         "editor.fontLigatures": true,
@@ -31,5 +30,4 @@
         "workbench.activityBar.visible":false,5
         "javascript.suggest.autoImports": true,      
     }
-
-
+...
