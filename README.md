@@ -2,9 +2,8 @@
 - fonte Victor Mono para *ligatures* :)
 - extensões
 - configurações
-##
-
 ...
+'configurações'
 {
     "editor.fontFamily": "Victor Mono",
     "editor.fontLigatures": true,
