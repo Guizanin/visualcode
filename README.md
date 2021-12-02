@@ -7,31 +7,62 @@
 ...
 
     {
-        "editor.fontFamily": "Victor Mono",
-        "editor.fontSize": 16,
-        "editor.lineHeight": 24,
-        "editor.fontLigatures": true,
-        "workbench.iconTheme": "material-icon-theme",
-        
-        "editor.minimap.enabled": false,
-        "editor.largeFileOptimizations": false,
-        "workbench.sideBar.location": "left",
-        "material-icon-theme.folders.color": "#ff4757", 
-        "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-        "workbench.colorCustomizations": {
-        "activityBar.foreground": "#ff9da4",    
-        "activityBar.border": "#eb00102d",
-        "editor.findMatchBorder": "#ff9da4",
-        "editorLineNumber.activeForeground": "#702e33e8",
-        "editorLineNumber.foreground": "#9b80805d",
-        "contrastActiveBorder": "#ff9da45e",
-        },
-        "workbench.colorTheme": "2077",
-        "window.zoomLevel": 0,
-        "glassit.step": 100,
-        "glassit.alpha": 220,
-        "workbench.activityBar.visible":false,5
-        "javascript.suggest.autoImports": true, 
-    }
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "Victor Mono",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.fontSize": 16,
+  "editor.renderLineHighlight": "gutter",
+  "editor.minimap.enabled": false,
+  "editor.largeFileOptimizations": false,
+  "workbench.sideBar.location": "left",
+  "explorer.compactFolders": false,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 4,
+
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#13110100"
+    // "tab.activeForeground": "#8c6dbec5"
+    // "activityBar.border": "#0f081bc5"
+  },
+  "bracket-pair-colorizer-2.colorMode": "Independent",
+  "javascript.suggest.autoImports": true,
+  "extensions.autoUpdate": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "glassit.alpha": 255,
+  "glassit.step": 2,
+
+  "sync.gist": "f41f1ab36ca90d8318eae6b78d9ee024",
+
+  // "eslint.validate": [
+  //   "javascript",
+  //   "javascriptreact",
+  //   { "language": "typescript", "autoFix": true },
+  //   { "language": "typescriptreact", "autoFix": true }
+  // ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+  "window.zoomLevel": 1,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)"
+}
 
 ...
